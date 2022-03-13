@@ -1,0 +1,29 @@
+{
+ "name": "Gallery",
+ "description": "Personal Task",
+ "task": [
+    "1 8-22 * * * https://raw.githubusercontent.com/Eschewal/Source/master/QuantumultX/Script/free_app_detect.js, tag=App限免, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/exchangerate.png, enabled=true",
+    "0 0-18/6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js, tag=App监控, img-url= https://raw.githubusercontent.com/Orz-3/mini/master/Color/appstore.png, enabled=true",
+    "*/5 * * * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=TestFlight, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=false",
+    "30 8 * * * https://raw.githubusercontent.com/yyn618/QuantumultX-Script/master/Task/ali_daily.js, tag=蚂蚁森林, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/alipay.png, enabled=true",
+    "50 7 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=领吃货豆, img-url= https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
+    "51 7 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=会员任务, img-url= https://raw.githubusercontent.com/Orz-3/mini/master/Color/elem.png, enabled=true",
+    "2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=哔哩签到, img-url= https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png, enabled=true",
+    "0 17 * * * https://raw.githubusercontent.com/dompling/Script/master/BiliBiliMonitor/BiliBiliMonitor.js, tag=番剧监控, img-url= https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png, enabled=true",
+    "5 0 * * * https://raw.githubusercontent.com/Eschewal/Source/master/QuantumultX/Script/gua_MMdou.js, tag=京东签到, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/JD_DailyBonus.png, enabled=true",
+    "2 9 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_bean_change.js, tag=京豆通知, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_bean_change.png, enabled=true",
+    "55 23 * * * https://raw.githubusercontent.com/ChuheGit/1/main/Script/jd_scripts/jd_unsubscribe.js, tag=取关店铺, img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_unsubscribe.png, enabled=true",
+    "10 12,18 * * * https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js, tag=物流提醒, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/Eschewal/Source/master/QuantumultX/Script/google-check.js, tag=Google 查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf-ui-check.js, tag=Netflix 查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-nf.js, tag=Netflix 切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix_Letter.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/disney-ui-check.js, tag=Disneyᐩ 查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-disneyplus.js, tag=Disneyᐩ 切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/ytb-ui-check.js, tag=YouTube 查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/switch-check-ytb.js, tag=YouTube 切换, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/traffic-check.js, tag=策略组-流量查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Download.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/StreamingSE.png, enabled=true",
+    "event-interaction https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/TaskLocal/NeteaseMusicUnlockCheck.js, tag=网易云-解锁查询, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netease_Music_Unlock.png, enabled=true"
+ ]
+}
