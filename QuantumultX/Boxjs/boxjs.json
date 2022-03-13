@@ -1,0 +1,202 @@
+{
+  "id": "Eschewal.app.sub",
+  "name": "Script Subscription",
+  "author": "@Eschewal",
+  "icon": "https://raw.githubusercontent.com/Eschewal/Source/master/QuantumultX/Redhat.png",
+  "repo": "https://github.com/Eschewal/Source/tree/main",
+  "apps": [
+        {
+            "id": "iQIYI",
+            "name": "爱奇艺",
+            "keys": ["CookieQY"],
+            "descs_html": [
+                "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js\">脚本注释</a></h4>"
+            ],
+            "settings": [{
+                    "id": "iQIYI_LogDetails",
+                    "name": "响应日志",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": ""
+                },
+                {
+                    "id": "iQIYI_TimeOut",
+                    "name": "超时退出 (毫秒)",
+                    "val": "",
+                    "type": "number",
+                    "placeholder": "默认无超时 (点击以展开说明)",
+                    "desc": "按需填写, 用于由网络不稳定引起的脚本中断, 正常用户建议留空. 如QX日志出现\"JS Context timeout\"后脚本中断时, 建议填写6000"
+                }
+            ],
+            "script": "https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js",
+            "author": "@NobyDa",
+            "repo": "https://github.com/NobyDa/Script/blob/master/iQIYI-DailyBonus/iQIYI.js",
+            "icons": [
+                      "https://raw.githubusercontent.com/NobyDa/mini/master/Alpha/iQIYI.png", 
+                      "https://raw.githubusercontent.com/NobyDa/mini/master/Color/iQIYI.png"
+            ]
+        },
+        {
+            "id": "videoqq",
+            "name": "腾讯视频",
+            "descs_html": [
+                "点此直达【<a href=\"https://github.com/chavyleung/scripts/tree/master/videoqq\">脚本地址</a>】",
+                "手机浏览器访问: https://film.qq.com/",
+                "系统提示: 获取Cookie: 成功 （如果不提示获取成功, 点自己头像退出登录, 重新登录下应该就能获取）"
+            ],
+            "keys": [
+                "chavy_cookie_videoqq",
+                "chavy_auth_url_videoqq",
+                "chavy_auth_header_videoqq",
+                "chavy_msign_url_videoqq",
+                "chavy_msign_header_videoqq"
+            ],
+            "author": "@chavyleung",
+            "repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+            "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
+            "icons": [
+                "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/videoqq.png",
+                "https://raw.githubusercontent.com/Orz-3/mini/master/Color/videoqq.png"
+            ]
+        },
+        {
+            "id": "NeteaseMusic",
+            "name": "网易云音乐",
+            "descs_html": [
+                "点此直达【<a href=\"https://github.com/chavyleung/scripts/tree/master/neteasemusic\">脚本地址</a>】",
+                "1.先登录: https://music.163.com/m/login",
+                "2.再访问: https://music.163.com/#/user/level",
+                "3.提示: 获取会话: 成功!"
+            ],
+            "keys": ["chavy_cookie_neteasemusic"],
+            "settings": [{
+                    "id": "CFG_neteasemusic_retryCnt",
+                    "name": "重试次数",
+                    "val": 10,
+                    "type": "text",
+                    "desc": "一直尝试签到直至出现“重复签到”标识!"
+                },
+                {
+                    "id": "CFG_neteasemusic_retryInterval",
+                    "name": "重试间隔 (毫秒)",
+                    "val": 500,
+                    "type": "text",
+                    "desc": "每次重试间隔时间 (毫秒)！"
+                }
+            ],
+            "author": "@chavyleung",
+            "repo": "https://github.com/chavyleung/scripts/tree/master/neteasemusic",
+            "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js",
+            "icons": [
+                "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/neteasemusic.png",
+                "https://raw.githubusercontent.com/Orz-3/mini/master/Color/neteasemusic.png"
+            ]
+        },
+        {
+                 "id": "chavyleung.bilibili.live",
+                 "name": "哔哩哔哩",
+                 "descs_html": [
+                 "点此直达【<a href=\"https://github.com/chavyleung/scripts/blob/master/bilibili\">脚本地址</a>】",
+                 "1.打开浏览器访问: https://www.bilibili.com 或 https://live.bilibili.com",
+                 "2.系统提示: 获取Cookie: 成功"
+                 ],
+                 "keys": ["chavy_cookie_bilibili"],
+                 "author": "@chavyleung",
+                 "repo": "https://github.com/chavyleung/scripts/blob/master/bilibili",
+                 "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js",
+                 "icons": [
+                      "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png",
+                      "https://raw.githubusercontent.com/Orz-3/mini/master/Color/bilibili.png"
+                 ]
+        },
+        {
+            "id": "bilibili",
+            "name": "哔哩哔哩关注中心/番剧监控",
+                   "keys": ["@bilibili.cookie", "@BiliBiliMonitor.subscriptions"],
+                   "icons": [
+                   "https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png",
+                   "https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png"
+            ],
+            "author": "@dompling",
+            "repo": "https://github.com/dompling/Script/blob/master/BiliBili/bilibili.cookie.js",
+            "script": "https://raw.githubusercontent.com/dompling/Script/master/BiliBiliMonitor/BiliBiliMonitor.js"
+        },            
+        {
+            "id": "testflight",
+            "name": "tf监控",
+            "keys": [],
+            "settings": [{
+	            "id": "appkey",
+	            "name": "监控appkey",
+	            "val": "",
+	            "type": "textarea",
+	            "placeholder": "VCIvwk2g,1SyedSId",
+	            "autoGrow": true,
+	            "rows": 1,
+	            "desc": "以英文逗号分隔多个key"
+            },
+	    {
+	           "id": "testflight_isnotify",
+	           "name": "是否静默通知",
+	           "val": "",
+	           "type": "boolean",
+	           "placeholder": "true or false",
+	           "autoGrow": true,
+	           "rows": 1,
+	           "desc": "没有tf位置将不会通知"
+	    }
+            ],
+            "author": "@Neurogram, @evilbutcher",
+            "repo": "https://github.com/songyangzz/QuantumultX/blob/master/testflight.js",
+            "icons": [
+	        "https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png",
+	        "https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"
+            ]
+        }, 
+       
+        {
+            "id": "appmonitor",
+            "name": "AppMonitor",
+            "descs_html": [
+            "点此直达【<a href=\"https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js\">脚本地址</a>】",
+            "源于Quantumult X群友分享，支持BoxJs。",
+            "填写App ID可通过AppStore分享按钮拷贝想要监控App的链接，在链接最后有id，复制到监控ID内即可；未单独设置区域，则采用reg默认区域",
+            "关于ID，例如：https://apps.apple.com/us/app/quantumult-x/id<font class=\"error--text\">1443988620</font>",
+            "App价格监控：app_monitor为本地记录的监控相关信息"
+            ],
+            "keys": [
+            "@App价格监控.apps",
+            "@App价格监控.reg",
+            "@App价格监控.app_monitor"
+            ],
+            "settings": [{
+                    "id": "@App价格监控.apps",
+                    "name": "监控ID",
+                    "val": "",
+                    "placeholder": "例如，1312014438 cn，1282297037_au",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 2,
+                    "desc": "ID与区域分隔符支持 空格/:|_-，但不同App之间请用中文逗号\"，\"分隔。"
+            },
+            {
+                    "id": "@App价格监控.reg",
+                    "name": "默认区域",
+                    "val": "",
+                    "placeholder": "例如，cn/us/au",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 1,
+                    "desc": "请填写一个默认区域"
+            }
+            ],
+            "author": "@Neurogram, @evilbutcher",
+            "repo": "https://github.com/evilbutcher/Quantumult_X/tree/master/check_in/appstore",
+            "icons": [
+                "https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png",
+                "https://raw.githubusercontent.com/Orz-3/task/master/appstore.png"
+            ],
+            "script": "https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/appstore/AppMonitor.js"
+        }
+    ]
+}
