@@ -1,0 +1,8 @@
+proxies:
+  - {name: 🎧 网易音乐 1, server: SALVAN.ICU, port: 19980, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 2, server: 101.132.79.113, port: 23333, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 3, server: MUSIC.LOLICO.ME, port: 39000, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 4, server: MUSIC.GRIOUGES.CN, port: 39000, type: http, tls: false, skip-cert-verify: false}
+  - {name: 🎧 网易音乐 5, server: MUSIC.DESPERADOJ.COM, port: 30001, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  - {name: 🎧 网易音乐 6, server: MUSIC.DESPERADOJ.COM, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
+  

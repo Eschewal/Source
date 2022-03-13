@@ -1,0 +1,17 @@
+proxies:
+  - {name: " 法国 - 里昂 [BGPB] [SVIP] [禁止下载] [Dazn] [Netflix] [Disney ] [franceTV] [Salto]", server: 120.232.214.153, port: 6928, type: ss, cipher: chacha20-ietf-poly1305, password: 4cf5df5bbb5b71df7d1d75be05e3895c531cfe44f887d9ba04b5fa906ab7b478}
+  - {name: " 法国 - 巴黎 [BGPA] [SVIP] [Netflix]", server: 122.9.54.86, port: 5515, type: ss, cipher: chacha20-ietf-poly1305, password: 5c0a2e28599755e5630381c978103384d2508998eddf810f0c1454128ef8e178}
+  - {name: " 法国 - 斯特拉斯堡 [BGPA] [SVIP] [Netflix]", server: 122.9.54.26, port: 3720, type: ss, cipher: chacha20-ietf-poly1305, password: 677fd6d6b32d9bff90bbbd5229fef3c8f536695d631d683642beafb9c7ce2016}
+  - {name: " 英国 - 伦敦 [BGPA] [SVIP] [iPlayer] [Channel4] [Netflix] [LoveIsland] [ITV] [Disney ] [推荐]", server: 122.9.62.30, port: 6691, type: ss, cipher: chacha20-ietf-poly1305, password: 945a042162992fd4b31400fd0aa8fa278dd1e3b85f8834a8efa3e203a6f58959}
+  - {name: " 英国 - 东伦敦 [BGPA] [SVIP] [iPlayer] [Netflix] [LoveIsland] [ITV]", server: 122.9.54.209, port: 6904, type: ss, cipher: chacha20-ietf-poly1305, password: 75c585219f41f58eca01b272e5ae5d79e26b8c5150373ab101a8b491899d1675}
+  - {name: " 英国 - 曼彻斯特 [BGPA] [SVIP] [iPlayer] [Channel4] [Netflix] [LoveIsland] [ITV]", server: 122.9.62.36, port: 3677, type: ss, cipher: chacha20-ietf-poly1305, password: 2ebce16b8f40981b7769d99e387afedb2a74376182889ba22d49550f63ec9759}
+  - {name: " 美国 - 丹佛 [BGPA] [SVIP] [Facebook] [HBO]", server: 122.9.54.108, port: 3528, type: ss, cipher: chacha20-ietf-poly1305, password: d5c3c4e4465799ab448748aaffa2943bfb06e4284fd73e0f3c4597ad09701816}
+  - {name: " 美国 - 犹他州 [BGPA] [SVIP] [Netflix]", server: 122.9.62.38, port: 4745, type: ss, cipher: chacha20-ietf-poly1305, password: 85589e88ea26222bc76895370dfff20f6b87690f67febd482b3fa54562b33164}
+  - {name: " 美国 - 西雅图 [BGPB] [SVIP] [Facebook] [Netflix] [Hulu] [HBO] [Disney ] [ESPN]", server: 120.232.214.66, port: 3658, type: ss, cipher: chacha20-ietf-poly1305, password: 80acbfe6d74b1c539a6cb3ac19aedb766a7f5d7d9b51e3bc8d9d36248fae4b2f}
+  - {name: " 美国 - 芝加哥 [BGPA] [SVIP] [Disney ] [HBO] [Netflix]", server: 122.9.54.153, port: 5024, type: ss, cipher: chacha20-ietf-poly1305, password: 84c67ae80706cfb3f54001365b58ba4cec5ff8b8f8910a106217ea6fbbae3b07}
+  - {name: " 美国 - 迈阿密 [BGPA] [SVIP] [Facebook] [HBO]", server: 122.9.54.240, port: 2098, type: ss, cipher: chacha20-ietf-poly1305, password: d4a13bffd3664109157edbf3d77a1c206b6dbf63483928290d161a9e812f705e}
+  - {name: " 美国 - 凤凰城 [BGPA] [SVIP] [推荐] [Netflix] [HBO] [SlingTV] [FOX] [FuboTV]", server: 122.9.62.38, port: 3662, type: ss, cipher: chacha20-ietf-poly1305, password: 403c9b97d85b6486b616e21c7453fca71f248e70c1c3faa8da13e91cab79e33b}
+  - {name: " 美国 - 达拉斯 [BGPA] [SVIP] [Facebook] [Netflix]", server: 122.9.54.153, port: 2360, type: ss, cipher: chacha20-ietf-poly1305, password: e7e20777590592b04a8acabe85266e020fa3e18b6df3b72417d9fccc6f818038}
+  - {name: " 美国 - 圣克拉拉 [BGPA] [SVIP] [Netflix] [Hulu] [HBO] [Disney ] [ESPN] [SlingTV]", server: 122.9.54.196, port: 6386, type: ss, cipher: chacha20-ietf-poly1305, password: 388ea90f9b0371fe0ba356036662ffd25abdb2d70f380d0a3ed5936090e3a22e}
+  - {name: " 美国 - 拉斯维加斯 [BGPA] [SVIP] [Netflix]", server: 122.9.54.202, port: 4760, type: ss, cipher: chacha20-ietf-poly1305, password: 4b5f27611c2a15510673bb70488f50d88be3fa8328cc8634d8b8183fd45e583c}
+  
