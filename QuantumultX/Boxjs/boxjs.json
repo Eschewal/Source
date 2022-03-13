@@ -3,7 +3,7 @@
   "name": "Script Subscription",
   "author": "@Eschewal",
   "icon": "https://raw.githubusercontent.com/Eschewal/Source/master/QuantumultX/Redhat.png",
-  "repo": "https://github.com/Eschewal/Source/tree/main",
+  "repo": "https://github.com/Eschewal/Source/tree/master",
   "apps": [
         {
             "id": "iQIYI",
