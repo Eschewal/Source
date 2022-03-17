@@ -1,15 +1,3 @@
-trojan=jp.114514.de:60001, password=0a255d06-d846-4e53-a760-952efa994239, over-tls=true, tls-host=jp.114514.de, tls-verification=false, fast-open=true, udp-relay=true, tag=🇯🇵日本 | Azure 橙汁 
-trojan=20.24.83.111:50001, password=0a255d06-d846-4e53-a760-952efa994239, over-tls=true, tls-host=uu.77710086.xyz, tls-verification=false, fast-open=true, udp-relay=true, tag=🇸🇬狮城 | NeroCloud 橙汁
-shadowsocks=f2.114514.de:50001, method=chacha20-ietf-poly1305, password=0a255d06-d846-4e53-a760-952efa994239, fast-open=true, udp-relay=true, tag=🇸🇬狮城 | Azure 橙汁
-
-vmess=az.xiaoyizi.in:30015, method=aes-128-gcm, password=9f959528-fc25-3332-8cce-e4873bfc3f51, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=🇭🇰香港 | Azure 企鹅
-vmess=20.231.97.138:31046, method=chacha20-ietf-poly1305, password=dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65, fast-open=true, udp-relay=true, aead=true, tag=🇺🇸美国 | Azure InfiniPort
-vmess=azhk.infininode.xyz:31552, method=chacha20-ietf-poly1305, password=dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65, obfs=over-tls, tls-verification=false, fast-open=true, udp-relay=true, aead=true, tag=🇭🇰香港 | Azure InfiniPort
-vmess=azjp.infininode.xyz:31540, method=chacha20-ietf-poly1305, password=dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65, obfs=over-tls, tls-verification=false, fast-open=true, udp-relay=true, aead=true, tag=🇯🇵日本 | Azure InfiniPort
-
-shadowsocks=azhk01.cafeisgood.ml:10001, method=aes-256-gcm, password=07ceb0b4-1405-47c5-88af-804edf696bcf, fast-open=true, udp-relay=true, tag=🇭🇰香港 | Azure Leka
-shadowsocks=20.24.82.76:10001, method=aes-256-gcm, password=07ceb0b4-1405-47c5-88af-804edf696bcf, fast-open=true, udp-relay=true, tag=🇭🇰香港 | Amazon Leka 
-shadowsocks=52.194.223.40:13121, method=aes-256-gcm, password=07ceb0b4-1405-47c5-88af-804edf696bcf, fast-open=true, udp-relay=true, tag=🇯🇵日本 | Amazon Leka
 shadowsocks=7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com:30004, method=chacha20-ietf-poly1305, password=6b5e40d6-1b09-41a3-bde7-0c9a44a27be0, fast-open=true, udp-relay=true, tag=🇭🇰香港 | Azure Nano
 shadowsocks=7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com:30017, method=chacha20-ietf-poly1305, password=6b5e40d6-1b09-41a3-bde7-0c9a44a27be0, fast-open=true, udp-relay=true, tag=🇨🇳台湾 | HiNet Nano
 shadowsocks=7704d818-78e5-471a-a1d6-655c4d79f662.1c5f5adf-a6ce-4066-b318-fa7eb97f68c8.xn--9kq12xdq7a.com:30021, method=chacha20-ietf-poly1305, password=6b5e40d6-1b09-41a3-bde7-0c9a44a27be0, fast-open=true, udp-relay=true, tag=🇺🇸美国 | Multacom Nano
