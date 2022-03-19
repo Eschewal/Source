@@ -34,5 +34,3 @@ proxies:
   - {name: " 爱沙尼亚 - 塔林 [BGPA] [SVIP] [Netflix]", server: 122.9.62.7, port: 6686, type: ss, cipher: chacha20-ietf-poly1305, password: d0dc3ab548e632fa2e9fd4fb41f585c2fc7a1737a5c6741734385104c3e51d15}
   - {name: " 哥伦比亚 - 波哥大 [BGPA] [SVIP]", server: 122.9.62.22, port: 4039, type: ss, cipher: chacha20-ietf-poly1305, password: 59a1bff055c13be1ea9e707c50714c732f8192524a1a945e87ad38eb4c5a7620}
   - {name: " 白俄罗斯 - 明斯克 [BGPA] [SVIP] [Netflix]", server: 122.9.54.62, port: 5073, type: ss, cipher: chacha20-ietf-poly1305, password: 7cad28988a4cb4e7c800c48ae57197897d11a019d6505ef5b9bbcb1356f2b044}
-  - {name: " 印度尼西亚 - 雅加达 [BGPA] [SVIP] [Netflix]", server: 122.9.62.57, port: 20736, type: ss, cipher: chacha20-ietf-poly1305, password: 7e5227b23a325d9d3d843ca9ea867e82bbe353f3fc6b383d370c5d6f54f4fa38}
-  
